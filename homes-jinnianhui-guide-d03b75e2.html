@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金年会 · 快速识别指南</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fafaf9;
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            color: #1c1917;
+            line-height: 1.7;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .container {
+            max-width: 720px;
+            width: 100%;
+            padding: 0 2rem;
+            margin: 0 auto;
+        }
+
+        /* hero */
+        .hero {
+            padding: 3.5rem 0 2.5rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            color: #0f0e0c;
+            margin-bottom: 0.5rem;
+        }
+
+        .hero .sub {
+            font-size: 1.1rem;
+            color: #57534e;
+            max-width: 500px;
+            margin: 0.5rem auto 0;
+        }
+
+        .hero-desc {
+            margin-top: 1.4rem;
+            font-size: 1rem;
+            color: #44403c;
+        }
+
+        /* 优势区 */
+        .strength {
+            padding: 2.8rem 0 2rem;
+            border-top: 1px solid #e7e5e4;
+        }
+
+        .strength h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #1c1917;
+            margin-bottom: 1.5rem;
+            letter-spacing: -0.01em;
+        }
+
+        .grid-cards {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+        }
+
+        .card {
+            background: #ffffff;
+            border-radius: 16px;
+            padding: 1.5rem 1.2rem;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.03);
+            border: 1px solid #ecebe9;
+            transition: box-shadow 0.15s;
+        }
+
+        .card:hover {
+            box-shadow: 0 4px 14px rgba(0,0,0,0.04);
+        }
+
+        .card h3 {
+            font-size: 1.05rem;
+            font-weight: 500;
+            color: #292524;
+            margin-bottom: 0.5rem;
+        }
+
+        .card p {
+            font-size: 0.92rem;
+            color: #57534e;
+        }
+
+        /* 说明区 */
+        .explain {
+            padding: 2.5rem 0;
+            border-top: 1px solid #e7e5e4;
+        }
+
+        .explain h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #1c1917;
+            margin-bottom: 1rem;
+            letter-spacing: -0.01em;
+        }
+
+        .explain p {
+            margin-bottom: 1rem;
+            font-size: 0.98rem;
+            color: #3b3733;
+        }
+
+        .explain p a {
+            color: #1c1917;
+            text-decoration: underline;
+            text-decoration-color: #cbd5e1;
+            text-underline-offset: 3px;
+            font-weight: 500;
+        }
+
+        .explain p a:hover {
+            text-decoration-color: #0f0e0c;
+        }
+
+        /* FAQ 摘要 */
+        .faq-summary {
+            padding: 2.5rem 0;
+            border-top: 1px solid #e7e5e4;
+        }
+
+        .faq-summary h2 {
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: #1c1917;
+            margin-bottom: 1.2rem;
+        }
+
+        .faq-item {
+            margin-bottom: 1.2rem;
+        }
+
+        .faq-item .q {
+            font-weight: 500;
+            color: #292524;
+            margin-bottom: 0.2rem;
+        }
+
+        .faq-item .a {
+            color: #57534e;
+            font-size: 0.96rem;
+        }
+
+        /* 底部链接 */
+        .footer-links {
+            padding: 2rem 0 3rem;
+            border-top: 1px solid #e7e5e4;
+            text-align: center;
+            font-size: 0.92rem;
+            color: #78716c;
+        }
+
+        .footer-links a {
+            color: #1c1917;
+            text-decoration: underline;
+            text-decoration-color: #d6d3d1;
+            text-underline-offset: 3px;
+            margin: 0 0.35rem;
+        }
+
+        .footer-links a:hover {
+            text-decoration-color: #1c1917;
+        }
+
+        .footer-links .muted {
+            display: block;
+            margin-top: 0.8rem;
+            color: #a8a29e;
+        }
+
+        /* 响应式 */
+        @media (max-width: 540px) {
+            .container {
+                padding: 0 1.2rem;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .grid-cards {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+            }
+            .strength, .explain, .faq-summary {
+                padding: 1.8rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- hero 区 -->
+        <section class="hero">
+            <h1>金年会</h1>
+            <div class="sub">不要猜测用途——直接看下去</div>
+            <div class="hero-desc">
+                你来到这个页面，很可能是想确认一件事：<strong>这个网站到底做什么</strong>。<br>
+                是的，它就是你想的那个品牌：<a href="https://homes-jinnianhui.com">金年会</a>。
+            </div>
+        </section>
+
+        <!-- 优势区 -->
+        <section class="strength">
+            <h2>几个让用户感到清晰的特点</h2>
+            <div class="grid-cards">
+                <div class="card">
+                    <h3>名字直接</h3>
+                    <p>金年会三字已概括了品牌身份。不需要额外解释或包装。</p>
+                </div>
+                <div class="card">
+                    <h3>一眼可辨</h3>
+                    <p>无论你在哪里看到这个名称，都能快速关联到对应的服务范围。</p>
+                </div>
+                <div class="card">
+                    <h3>持续稳定</h3>
+                    <p>网站长期在线，信息结构清晰，不容易让人产生困惑。</p>
+                </div>
+                <div class="card">
+                    <h3>指向明确</h3>
+                    <p>整个落地页就是为了让你知道「金年会」是谁、在哪里找到它。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 说明区 -->
+        <section class="explain">
+            <h2>从用户角度理解这个网站</h2>
+            <p>
+                很多时候我们打开一个页面，第一反应是：这是不是我要找的地方？<br>
+                这里可以明确告诉你：<a href="https://homes-jinnianhui.com">金年会</a> 就是你要找的品牌入口。
+                它不是一个模糊的导航页，也不是临时页面，而是你可以信赖的地址。
+            </p>
+            <p>
+                整个站点的设计思路是让访客在几秒钟内获得确定性——不需要翻找、不需要猜测。
+                当你看到「金年会」三个字的时候，应该已经知道你找对了地方。
+            </p>
+        </section>
+
+        <!-- FAQ 摘要 -->
+        <section class="faq-summary">
+            <h2>你可能想确认的几个问题</h2>
+            <div class="faq-item">
+                <div class="q">Q：这个网站是正牌的吗？</div>
+                <div class="a">是的。直接使用品牌名「金年会」作为域名核心部分，且内容与品牌一致。</div>
+            </div>
+            <div class="faq-item">
+                <div class="q">Q：我该如何进一步了解？</div>
+                <div class="a">访问 <a href="https://homes-jinnianhui.com">金年会</a> 即可看到完整信息。</div>
+            </div>
+            <div class="faq-item">
+                <div class="q">Q：页面如此简洁，是不是缺少内容？</div>
+                <div class="a">恰恰相反。对于识别类页面，少而准比多而杂更有帮助。</div>
+            </div>
+        </section>
+
+        <!-- 底部链接 -->
+        <footer class="footer-links">
+            <span><a href="https://homes-jinnianhui.com">金年会</a> · 唯一地址</span>
+            <span class="muted">© 金年会 · 保持简单</span>
+        </footer>
+    </div>
+</body>
+</html>
